@@ -1,0 +1,16 @@
+@use "../functions" as *;
+
+@mixin use-icon-from-array($array-name, $icon-name, $color, $size) {
+  &:before {
+    content: "";
+    display: inline-block;
+    width: $size;
+    height: $size;
+    background-image: svg-url(svg-icon(map-get(map-get($array-name, $icon-name), viewBox), map-get(map-get($array-name, $icon-name), d), $color));
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    vertical-align: -0.125em;
+    @content;
+  }
+}

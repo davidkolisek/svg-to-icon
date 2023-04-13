@@ -1,0 +1,4 @@
+@function svg-icon($viewBox, $d, $fill) {
+  $svg: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="#{$viewBox}"><path d="#{$d}" fill="#{$fill}" /></svg>';
+  @return $svg;
+}
