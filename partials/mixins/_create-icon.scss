@@ -1,0 +1,14 @@
+@use "../functions" as *;
+
+@mixin create-icon($svg-icon) {
+  &:before {
+    content: "";
+    display: inline-block;
+    background-image: svg-url($svg-icon);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    vertical-align: -0.125em;
+    @content;
+  }
+}

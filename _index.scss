@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@use "functions" as *;
-@use "mixins" as *;
+@forward "partials/functions";
+@forward "partials/mixins";
 
 

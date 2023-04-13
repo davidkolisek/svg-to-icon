@@ -3,8 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <title>Uri svg icon - demo</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="template.css">
 </head>
 <body>
-
+<main>
+    <section>
+        <h2>1. Usecase</h2>
+        <p>
+            Converting svg string to base64<br/><br/>
+            <code>
+                @include create-icon('svg-tag')
+            </code>
+        </p>
+        <a href="" class="btn btn-1">
+            <i></i>Hover me!
+        </a>
+    </section>
+    <section>
+        <h2>2. Usecase</h2>
+        <p>
+            Created simple icon from variables<br/><br/>
+            <code>
+                @include create-icon-standalone($i-user-view-box, $i-user-path, #fff, 20px)
+            </code>
+        </p>
+        <a href="" class="btn btn-2">
+            <i></i>Hover me!
+        </a>
+    </section>
+    <section>
+        <h2>3. Usecase</h2>
+        <p>
+            Created icon from array of icons<br/><br/>
+            <code>
+                @include create-icon-from-array($icons, user, #fff, 20px)
+            </code>
+        </p>
+        <a href="" class="btn btn-3">
+            <i></i>Hover me!
+        </a>
+    </section>
+</main>
 </body>
 </html>
