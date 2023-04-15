@@ -37,8 +37,8 @@ On your page, you will see a yellow user icon with a size of 24x24 pixels :) Of 
 
 Let's explain the individual parameters of the `@mixin create-icon($svg-icon, $fill-color: null, $curr-color: null, $size: null):`
 
-| Value   |      Description      |
-|---------------------------|:-------------|
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Value&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   |      Description      |
+|:---------------------------:|:-------------|
 | **$svg-icon** |  expects a string of your SVG icon, which can be placed in a variable. |
 | **$fill-color** |    specifies the color you want the icon to change to. It can be a color name such as `'pink'` or a color code such as `'#f2f'`   |
 | **$curr-color** | if your SVG does not contain a fill attribute, simply put `null` as the $fill-color parameter. However, if the SVG has a color specified in the fill attribute, such as `orange`, you must put this color in the $fill-color parameter as a string (f.e.`'orange'`). |
@@ -58,5 +58,4 @@ i {
 
 ### > Examples
 
-[Codepen](https://codepen.io/davidkolisek/pen/BaqNGRM)
-
+- Codepen [demo](https://codepen.io/davidkolisek/pen/BaqNGRM)
