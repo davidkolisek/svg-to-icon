@@ -127,4 +127,7 @@ No, svg-to-icon converts the supplied SVG to base64 and then renders it as a bac
 - [npmjs](https://www.npmjs.com/package/@davidkolisek/svg-to-icon)
 
 
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/davidkolisek/svg-to-icon/blob/master/LICENSE) file for details.
 

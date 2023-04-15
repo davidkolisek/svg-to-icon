@@ -1,6 +1,6 @@
 {
   "name": "@davidkolisek/svg-to-icon",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "Stop using unnecessarily large libraries for just a few icons. Instead, use SVG as an icon",
   "main": "_index.scss",
   "repository": {
