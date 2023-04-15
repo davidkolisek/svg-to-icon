@@ -2,7 +2,7 @@
 
 <h3 align="center">Stop using unnecessarily large libraries for just a few icons.</h3>
 
-#Why?
+# Why?
 
 Using a large library for just a few icons will increase the overall file size of our website, which in turn can slow down the page load time. This can have a negative impact on user experience, especially for users with slower internet connections or older devices. By using only the necessary icons and optimizing their delivery, we can make our website faster and more accessible to a wider audience.
 
