@@ -8,7 +8,7 @@ Using a large library for just a few icons will increase the overall file size o
 
 ## Description
 
-This repository contains a simple [SCSS file](https://github.com/davidkolisek/svg-to-icon/blob/master/assets/scss/svg-to-icon-all.scss) for converting SVG images into icons. The file includes SASS functions and mixins that convert the provided SVGs into base64 format. Additionally, you can manipulate the converted icon by using css.
+This repository contains a simple [SCSS file](https://github.com/davidkolisek/svg-to-icon/blob/master/svg-to-icon.scss) for converting SVG images into icons. The file includes SASS functions and mixins that convert the provided SVGs into base64 format. Additionally, you can manipulate the converted icon by using css.
 
 ## Setup
 
@@ -17,7 +17,7 @@ This repository contains a simple [SCSS file](https://github.com/davidkolisek/sv
 
 ### > Installation
 
-No need to run any npm installation. Just copy the [SCSS file](https://github.com/davidkolisek/svg-to-icon/blob/master/assets/scss/svg-to-icon-all.scss) and paste it into your project. It is up to you to decide how to organize the functions and mixins. 
+No need to run any npm installation. Just copy the [SCSS file](https://github.com/davidkolisek/svg-to-icon/blob/master/svg-to-icon.scss) and paste it into your project. It is up to you to decide how to organize the functions and mixins. 
 
 ## Usage
 
