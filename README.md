@@ -1,6 +1,6 @@
 <h1 align="center">SVG to icon 🖍 </h1>
 
-<h3 align="center">Stop using unnecessarily large libraries for just a few icons.</h3>
+<h3 align="center">Stop using unnecessarily large libraries for just a few icons. </h3>
 
 # Why?
 
@@ -17,7 +17,23 @@ This repository contains a simple [SCSS file](https://github.com/davidkolisek/sv
 
 ### > Installation
 
-No need to run any npm installation. Just copy the [SCSS file](https://github.com/davidkolisek/svg-to-icon/blob/master/_index.scss) and paste it into your project. It is up to you to decide how to organize the functions and mixins. 
+Run:
+
+```
+npm i @davidkolisek/svg-to-icon
+```
+
+And then simply import 'svg-to-icon' into your SCSS file.
+
+```
+@import '../node_modules/@davidkolisek/svg-to-icon';
+```
+
+That's it :)
+
+**Second option - copy&paste :)**
+
+If you prefer not to run any npm installations, you can copy the [SCSS file](https://github.com/davidkolisek/svg-to-icon/blob/master/_index.scss) and paste it into your project. It is up to you to decide how to organize the functions and mixins.
 
 ## Usage
 
@@ -25,15 +41,18 @@ No need to run any npm installation. Just copy the [SCSS file](https://github.co
 
 The best way is to define your SVG icon as a string variable. Then, in your SCSS file, use the mixin `@mixin create-icon()` as follows:
 ```
-//you can define your icon in a variable. This step is optional.
+//optional
 $i-user: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z" /></svg>';
 
 i {
-    @include create-icon($i-user, 'yellow', null, 24px)
+    &:before {
+        content: '';
+        @include create-icon($i-user, 'yellow', null, 24px)
+    }
 }
 ```
 
-On your page, you will see a yellow user icon with a size of 24x24 pixels :) Of course, you must have the <i></i> tag in your HTML file.
+On your page, you will see a yellow user icon with a size of 24x24 pixels :) Of course, you must have the `<i></i>` tag in your HTML file. It doesn't have to be a `<i></i>` tag; it can be any HTML tag.
 
 Let's explain the individual parameters of the `@mixin create-icon($svg-icon, $fill-color: null, $curr-color: null, $size: null):`
 
@@ -56,6 +75,7 @@ i {
 }
 ```
 
-### > Examples
+### > Example & links
 
-- Codepen [demo](https://codepen.io/davidkolisek/pen/BaqNGRM)
+- [codepen demo](https://codepen.io/davidkolisek/pen/BaqNGRM)
+- [npmjs](https://www.npmjs.com/package/@davidkolisek/svg-to-icon)

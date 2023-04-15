@@ -51,9 +51,6 @@
   
   @mixin create-icon($svg-icon, $fill-color: null, $curr-color: null, $size: null) {
     $svg: $svg-icon;
-  
-    &:before {
-      content: "";
       display: inline-block;
       background-image: svg-uri-icon($svg, $fill-color, $curr-color);
       background-size: contain;
@@ -65,5 +62,4 @@
         height: $size;
       }
       @content;
-    }
   }
