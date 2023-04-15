@@ -1,0 +1,20 @@
+{
+  "name": "@davidkolisek/svg-to-icon",
+  "version": "1.0.1",
+  "description": "Stop using unnecessarily large libraries for just a few icons. Instead, use SVG as an icon",
+  "main": "_index.scss",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidkolisek/svg-to-icon.git"
+  },
+  "keywords": [
+    "svg-to-icon",
+    "base64"
+  ],
+  "author": "davidkolisek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidkolisek/svg-to-icon/issues"
+  },
+  "homepage": "https://github.com/davidkolisek/svg-to-icon#readme"
+}
