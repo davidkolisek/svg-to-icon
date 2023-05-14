@@ -2,7 +2,7 @@
 
 <h3 align="center">Stop using unnecessarily large libraries for just a few icons. </h3>
 
-
+---
 This lightweight SCSS file enables easy conversion of SVG images to base64 icons, which can be used as background images for HTML elements. With simple CSS modifications, you can adjust the color, size, and other visual properties of the icons to fit your needs.
 
 # Why?
