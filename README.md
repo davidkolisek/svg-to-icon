@@ -1,20 +1,22 @@
 <h1 align="center">SVG to icon 🖍 </h1>
 
 <h3 align="center">Stop using unnecessarily large libraries for just a few icons. </h3>
+
 # SVG to Web Icon Converter
-A lightweight SCSS file to convert SVG images to icons
+
+This lightweight SCSS file enables easy conversion of SVG images to base64 icons, which can be used as background images for HTML elements. With simple CSS modifications, you can adjust the color, size, and other visual properties of the icons to fit your needs.
 
 # Why?
 
 Using a large library for just a few icons will increase the overall file size of our website, which in turn can slow down the page load time. This can have a negative impact on user experience, especially for users with slower internet connections or older devices. By using only the necessary icons and optimizing their delivery, we can make our website faster and more accessible to a wider audience.
 
-# Table of Contents
-[Description](#📙-description)
-[Setup](#⚙-setup)
-[Usage](#💥-usage)
-[FAQ](#❓-faq)
-[Example](#🔗-example--others)
-[License](#📄-license)
+## Table of Contents
+- [Description](#📙-description)
+- [Setup](#⚙-setup)
+- [Usage](#💥-usage)
+- [FAQ](#❓-faq)
+- [Example](#🔗-example--others)
+- [License](#📄-license)
 
 ## 📙 Description
 
