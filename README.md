@@ -10,12 +10,12 @@ This lightweight SCSS file enables easy conversion of SVG images to base64 icons
 Using a large library for just a few icons will increase the overall file size of our website, which in turn can slow down the page load time. This can have a negative impact on user experience, especially for users with slower internet connections or older devices. By using only the necessary icons and optimizing their delivery, we can make our website faster and more accessible to a wider audience.
 
 ## Table of Contents
-- [Description](#📙-description)
-- [Setup](#⚙-setup)
-- [Usage](#💥-usage)
-- [FAQ](#❓-faq)
-- [Example](#🔗-example--others)
-- [License](#📄-license)
+- [Description](#-description)
+- [Setup](#-setup)
+- [Usage](#-usage)
+- [FAQ](#-faq)
+- [Example](#-example--others)
+- [License](#-license)
 
 ## 📙 Description
 
